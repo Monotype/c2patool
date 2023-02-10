@@ -268,7 +268,7 @@ checksum = "ec8a7b6a70fde80372154c65702f00a0f56f3e1c36abbc6c440484be248856db"
 [[package]]
 name = "c2pa"
 version = "0.16.1"
-source = "git+https://github.com/Monotype/c2pa-rs?branch=feature/C2PA-37/xmp#ed6841a9fcaddb6407cecac160aeeb992e2a42b5"
+source = "git+https://github.com/Monotype/c2pa-rs?branch=monotype/fontSupport#528acc78a0460251c9402235242c9a23c89d08d7"
 dependencies = [
  "atree",
  "base64",
