@@ -265,7 +265,7 @@ checksum = "89b2fd2a0dcf38d7971e2194b6b6eebab45ae01067456a7fd93d5547a61b70be"
 [[package]]
 name = "c2pa"
 version = "0.20.0"
-source = "git+https://github.com/Monotype/c2pa-rs?branch=feature/C2PA-55/useC2PATable#87910f838c71b6cbe013b679f7b37486a3715ec7"
+source = "git+https://github.com/Monotype/c2pa-rs?branch=monotype/fontSupport#a7ecafbe8adb97f59037d4f67d192bd12d537390"
 dependencies = [
  "async-trait",
  "atree",
