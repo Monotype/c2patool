@@ -163,12 +163,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9e1b586273c5702936fe7b7d6896644d8be71e6314cfe09d3167c95f712589e8"
 
 [[package]]
-name = "base64"
-version = "0.21.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "604178f6c5c21f02dc555784810edfb88d34ac2c73b2eae109655649ee73ce3d"
-
-[[package]]
 name = "base64ct"
 version = "1.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -304,13 +298,13 @@ checksum = "89b2fd2a0dcf38d7971e2194b6b6eebab45ae01067456a7fd93d5547a61b70be"
 
 [[package]]
 name = "c2pa"
-version = "0.24.0"
-source = "git+https://github.com/Monotype/c2pa-rs?branch=monotype/fontSupport#252576d91b77eba73468511bb558a40a37916787"
+version = "0.21.0"
+source = "git+https://github.com/Monotype/c2pa-rs?branch=fix/C2PA-175/fixStreamReadsWrites#555af7b48ecba2f0a0c318118ae4bebb3bab19b4"
 dependencies = [
  "asn1-rs",
  "async-trait",
  "atree",
- "base64 0.21.2",
+ "base64",
  "bcder",
  "blake3",
  "byteorder",
@@ -325,7 +319,6 @@ dependencies = [
  "fast-xml",
  "fonttools",
  "getrandom",
- "half 1.8.2",
  "hex",
  "image",
  "img-parts",
@@ -333,7 +326,6 @@ dependencies = [
  "js-sys",
  "lazy_static",
  "log",
- "mp4",
  "multibase",
  "multihash",
  "openssl",
@@ -1458,20 +1450,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "mp4"
-version = "0.13.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "509348cba250e7b852a875100a2ddce7a36ee3abf881a681c756670c1774264d"
-dependencies = [
- "byteorder",
- "bytes",
- "num-rational",
- "serde",
- "serde_json",
- "thiserror",
-]
-
-[[package]]
 name = "multibase"
 version = "0.9.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1604,7 +1582,6 @@ dependencies = [
  "num-bigint",
  "num-integer",
  "num-traits",
- "serde",
 ]
 
 [[package]]
@@ -1770,7 +1747,7 @@ version = "1.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a8835c273a76a90455d7344889b0964598e3316e2a79ede8e36f16bdcf2228b8"
 dependencies = [
- "base64 0.13.1",
+ "base64",
 ]
 
 [[package]]
@@ -2208,9 +2185,9 @@ dependencies = [
 
 [[package]]
 name = "serde-wasm-bindgen"
-version = "0.5.0"
+version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f3b143e2833c57ab9ad3ea280d21fd34e285a42837aeb0ee301f4f41890fa00e"
+checksum = "e3b4c031cd0d9014307d82b8abf653c0290fbdaeb4c02d00c63cf52f728628bf"
 dependencies = [
  "js-sys",
  "serde",
@@ -2642,7 +2619,7 @@ version = "2.6.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "338b31dd1314f68f3aabf3ed57ab922df95ffcd902476ca7ba3c4ce7b908c46d"
 dependencies = [
- "base64 0.13.1",
+ "base64",
  "flate2",
  "log",
  "once_cell",
