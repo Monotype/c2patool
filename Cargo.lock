@@ -327,7 +327,7 @@ checksum = "89b2fd2a0dcf38d7971e2194b6b6eebab45ae01067456a7fd93d5547a61b70be"
 [[package]]
 name = "c2pa"
 version = "0.27.1"
-source = "git+https://github.com/Monotype/c2pa-rs?branch=monotype/fontSupport#08985491a939f6e6d165a3588febc5ab65af4eba"
+source = "git+https://github.com/Monotype/c2pa-rs?branch=feature/C2PA-274/basicWoff1#89ce60a496a8481b72fdb351962d35f090bc1b5b"
 dependencies = [
  "asn1-rs",
  "async-generic",
