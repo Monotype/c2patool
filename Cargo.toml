@@ -19,7 +19,7 @@ repository = "https://github.com/contentauth/c2patool"
 
 [dependencies]
 anyhow = "1.0"
-c2pa = { git = "https://github.com/Monotype/c2pa-rs", branch = "epic/C2PA-280/localSfntSupport", features=["fetch_remote_manifests", "file_io",  "xmp_write", "sfnt", "woff"] }
+c2pa = { git = "https://github.com/Monotype/c2pa-rs", branch = "monotype/fontSupport", features=["fetch_remote_manifests", "file_io",  "xmp_write", "sfnt", "woff"] }
 chrono = { version = "0.4.24" }
 clap = { version = "3.2", features = ["derive"] }
 env_logger = "0.9"
