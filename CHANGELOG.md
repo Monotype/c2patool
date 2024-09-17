@@ -6,6 +6,43 @@ This project adheres to [Semantic Versioning](https://semver.org), except that â
 
 Do not manually edit this file. It will be automatically updated when a new release is published.
 
+## 0.9.9
+_17 September 2024_
+
+* Pull in latest bug fixes ([#237](https://github.com/contentauth/c2pa-rs/pull/237))
+* Document fragment subcommand ([#236](https://github.com/contentauth/c2pa-rs/pull/236))
+* Switch back to using `pull_request` instead of `pull_request_target` trigger
+* Bump actions/checkout from 3 to 4 ([#243](https://github.com/contentauth/c2pa-rs/pull/243))
+* Remove no-longer-maintained clippy-check action ([#238](https://github.com/contentauth/c2pa-rs/pull/238))
+## 0.9.8
+_30 August 2024_
+
+* Initial fragment support ([#230](https://github.com/contentauth/c2pa-rs/pull/230))
+* Add warning about accessing a private key directly ([#218](https://github.com/contentauth/c2pa-rs/pull/218))
+## 0.9.7
+_15 August 2024_
+
+* Update to latest c2pa SDK ([#222](https://github.com/contentauth/c2pa-rs/pull/222))
+* Remove rust toolchain version lock ([#221](https://github.com/contentauth/c2pa-rs/pull/221))
+* Update security guidance to link to SECURITY.md ([#217](https://github.com/contentauth/c2pa-rs/pull/217))
+## 0.9.6
+_30 July 2024_
+
+* Pull latest c2pa-rs bug fixes into c2patool ([#212](https://github.com/contentauth/c2pa-rs/pull/212))
+* only run tests/clippy if labeled ([#205](https://github.com/contentauth/c2pa-rs/pull/205))
+* Bump env_logger from 0.10.2 to 0.11.4 ([#204](https://github.com/contentauth/c2pa-rs/pull/204))
+* Updates cargo packages and cargo.deny file. ([#200](https://github.com/contentauth/c2pa-rs/pull/200))
+## 0.9.5
+_18 July 2024_
+
+* Update to lastest c2pa-rs ([#197](https://github.com/contentauth/c2pa-rs/pull/197))
+* added security.md ([#196](https://github.com/contentauth/c2pa-rs/pull/196))
+## 0.9.4
+_25 June 2024_
+
+* Update c2patool ([#190](https://github.com/contentauth/c2pa-rs/pull/190))
+* Match c2pa-rs minimum toolchain version and test in CI ([#188](https://github.com/contentauth/c2pa-rs/pull/188))
+* Document how to specify an icon ([#182](https://github.com/contentauth/c2pa-rs/pull/182))
 ## 0.9.3
 _29 May 2024_
 
