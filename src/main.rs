@@ -618,7 +618,8 @@ fn main() -> Result<()> {
                 if args.detailed {
                     println!(
                         "{}",
-                        ManifestStoreReport::from_file(&output, !is_sidecar).map_err(special_errs)?
+                        ManifestStoreReport::from_file(&output, !is_sidecar)
+                            .map_err(special_errs)?
                     );
                 } else {
                     println!(
