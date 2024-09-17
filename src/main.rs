@@ -618,12 +618,12 @@ fn main() -> Result<()> {
                 if args.detailed {
                     println!(
                         "{}",
-                        ManifestStoreReport::from_file(&output).map_err(special_errs)?
+                        ManifestStoreReport::from_file(&output, !is_sidecar).map_err(special_errs)?
                     );
                 } else {
                     println!(
                         "{}",
-                        ManifestStore::from_file(&output).map_err(special_errs)?
+                        ManifestStore::from_file(&output, !is_sidecar).map_err(special_errs)?
                     )
                 }
             }
@@ -674,7 +674,7 @@ fn main() -> Result<()> {
     } else if args.detailed {
         println!(
             "{}",
-            ManifestStoreReport::from_file(&args.path).map_err(special_errs)?
+            ManifestStoreReport::from_file(&args.path, !is_sidecar).map_err(special_errs)?
         )
     } else if let Some(Commands::Fragment {
         fragments_glob: Some(fg),
