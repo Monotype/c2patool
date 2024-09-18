@@ -656,7 +656,7 @@ checksum = "8318a53db07bb3f8dca91a600466bdb3f2eaadeedfdbcf02e1accbad9271ba50"
 [[package]]
 name = "c2pa"
 version = "0.35.0"
-source = "git+https://github.com/Monotype/c2pa-rs?branch=monotype/fontSupport#09bd27b8e4042486c43db7980237f4314f4aa688"
+source = "git+https://github.com/Monotype/c2pa-rs?branch=monotype/fontSupport#419cbaf2df20d8822e7cccb5fbfa8b2f32ccd649"
 dependencies = [
  "asn1-rs",
  "async-generic",
@@ -4264,7 +4264,7 @@ version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cf221c93e13a30d793f7645a0e7762c55d169dbb0a49671918a2319d289b10bb"
 dependencies = [
- "windows-sys 0.59.0",
+ "windows-sys 0.48.0",
 ]
 
 [[package]]
