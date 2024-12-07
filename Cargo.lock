@@ -676,7 +676,7 @@ checksum = "8318a53db07bb3f8dca91a600466bdb3f2eaadeedfdbcf02e1accbad9271ba50"
 [[package]]
 name = "c2pa"
 version = "0.35.0"
-source = "git+https://github.com/Monotype/c2pa-rs?branch=monotype/fontSupport#758ace4ed44eabdcd72e756a77318295a8a48d8a"
+source = "git+https://github.com/Monotype/c2pa-rs?branch=fix/C2PA-593/anotherMimeTypeMappingForSVG#0e6b9d06a07b9fdf3dce7bace0c6d9149e94a94e"
 dependencies = [
  "asn1-rs",
  "async-generic",
